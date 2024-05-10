@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Directives from '../components/vue/Directives.vue'
+---
+
+<Layout title="Welcome to Astro.">
+<!-- Hidratamos con Client -- load para que alimente apenas carge la pagina -->
+<Directives client:load/>
+</Layout>
